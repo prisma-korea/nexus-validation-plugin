@@ -21,5 +21,8 @@
     "@dooboo/eslint-config": "^0.6.17",
     "eslint": "^7.18.0",
     "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "nexus": "^1.0.0"
   }
 }
