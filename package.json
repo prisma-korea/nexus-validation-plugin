@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/0916dhkim/nexus-validation-plugin/issues"
   },
-  "homepage": "https://github.com/0916dhkim/nexus-validation-plugin#readme"
+  "homepage": "https://github.com/0916dhkim/nexus-validation-plugin#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
