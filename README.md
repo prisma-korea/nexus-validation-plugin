@@ -22,7 +22,7 @@ const signInEmail = mutationField('signInEmail', {
   args: {
     email: nonNull(stringArg()),
     password: nonNull(stringArg()),
-  }
+  },
 
   validation: {
     email: async (value) => /.*@.*/.test(value), // Should contain @.
