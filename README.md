@@ -13,6 +13,9 @@ npm install nexus-validation-plugin
 
 ## Example
 ```ts
+import { mutationField, nonNull, stringArg } from 'nexus';
+import { validationPlugin } from 'nexus-validation-plugin';
+
 const signInEmail = mutationField('signInEmail', {
   type: nonNull('User'),
 
@@ -30,5 +33,10 @@ const signInEmail = mutationField('signInEmail', {
     // Resolver only runs after successful validation.
     // ...
   }
+});
+
+const schema = makeSchema({
+  [signInEmail],
+  plugins: [validationPlugin()],
 });
 ```
