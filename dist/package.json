@@ -1,0 +1,25 @@
+{
+  "name": "nexus-validation-plugin",
+  "version": "0.1.2",
+  "description": "Nexus plugin for argument validation.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dooboolab/nexus-validation-plugin.git"
+  },
+  "author": "dooboolab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dooboolab/nexus-validation-plugin/issues"
+  },
+  "homepage": "https://github.com/dooboolab/nexus-validation-plugin#readme",
+  "devDependencies": {
+    "@dooboo/eslint-config": "^0.6.17",
+    "eslint": "^7.18.0",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "nexus": "*"
+  }
+}
