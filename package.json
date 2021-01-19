@@ -2,7 +2,7 @@
   "name": "nexus-validation-plugin",
   "private": true,
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && cp README.md ./dist/README.md && cp CHANGELOG.md ./dist/CHANGELOG.md",
     "prepare": "npm run build",
     "lint": "eslint --ext .ts,.tsx,.js,.jsx src",
     "test": "echo \"Error: no test specified\" && exit 1"
