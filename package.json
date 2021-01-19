@@ -1,6 +1,6 @@
 {
   "name": "nexus-validation-plugin",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Nexus plugin for argument validation.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
