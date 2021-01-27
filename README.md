@@ -1,5 +1,9 @@
 # Nexus Validation Plugin
 
+[![Version](http://img.shields.io/npm/v/nexus-validation-plugin.svg?style=flat-square)](https://npmjs.org/package/nexus-validation-plugin)
+[![Download](http://img.shields.io/npm/dm/nexus-validation-plugin.svg?style=flat-square)](https://npmjs.org/package/nexus-validation-plugin)
+[![License](https://img.shields.io/npm/l/nexus-validation-plugin.svg)](https://npmjs.org/package/nexus-validation-plugin)
+
 `nexus-validation-plugin` is a [Nexus](https://github.com/graphql-nexus/nexus) plugin for argument validation.
 
 Before executing a field resolver, `nexus-validation-plugin` will look for the `validation` config object.
